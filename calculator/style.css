@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: grey;
+}
+h1 {
+    font-size: 4vw;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 200;
+}
+h1 span{
+    color: orange;
+    font-weight: 900;
+}
+.container {
+    background-color: rgb(0.00, 0.00, 0.00);
+}
+.inputRow{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.input {
+    padding: 2% 0.5%;
+    font-size: 2.3vw;
+    outline: none;
+    border-radius: 1vw;
+    background-color: black;
+    color: white;
+}
+.button {
+    margin: 0.7% 0.5%;
+    padding: 1% 2%;
+    font-size: 3vw;
+    border-radius: 3vw;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clear{
+    padding: 1% 3.2%;
+}
+#equal{
+    padding: 1% 5.8%;
+}
+#percent{
+    padding: 1% 1.6%;
+}
+#zeroBtn{
+    padding: 1% 5.6%;
+}
+#dot {
+    padding: 1% 2.4%;
+}
+#minus{
+    padding: 1% 2.3%;
+}
+#multipply{
+    padding: 1% 2.2%;
+}
+#divide{
+    padding: 1% 2.4%;
+}
+
+@media (max-width: 450px) {
+    .container{
+        height: 100vh;
+    }
+    h1 {
+        font-size: 9vw;
+        padding-top: 15%;
+    }   
+    .button {
+        margin: 2% 1%;
+        padding: 5% 7.5%;
+        border-radius: 10vw;
+        font-size: 8vw;
+    }
+    .inputRow{
+        margin: 5% 0;
+    }
+    .input {
+        padding: 3% 0;
+        font-size: 9vw;
+        width: 80vw;
+        outline: none;
+        border-radius: 1vw;
+        color: white;
+    }
+    #clear{
+        padding: 5% 11%;
+    }
+    #equal{
+        padding: 5% 18%;
+    }
+    #percent{
+        padding: 5% 1.6%;
+    }
+    #zeroBtn{
+        padding: 5% 18%;
+    }
+    #dot {
+        padding: 5% 8.3%;
+    }
+    #minus{
+        padding: 5% 8.2%;
+    }
+    #multipply{
+        padding: 5% 8%;
+    }
+    #divide{
+        padding: 5% 8.3%;
+    }
+    #plus{
+        padding: 5% 7.5%;
+    }
+}
